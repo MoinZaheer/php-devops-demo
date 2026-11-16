@@ -1,6 +1,6 @@
 <?php
 $environmentFile = "environment.txt";
-$environment = "UNKNOWN"
+$environment = "UNKNOWN";
 
 if (file_exists($environmentFile)) {
     $environment = trim(file_get_contents($environmentFile));
