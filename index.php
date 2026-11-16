@@ -39,6 +39,7 @@ if (file_exists($environmentFile)) {
         <div class="env">Environment: <?php echo htmlspecialchars($environment); ?></div>
         <h1>Student Results Portal</h1>
         <p>Module: CSY3056 DevOps Demo</p>
+        <p>Week 8 Activity</p>
         <p>This page is being promoted through Dev, Test, Staging, and Production using Jenkins.</p>
     </div>
 </body>
