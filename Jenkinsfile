@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        GIT_EXE = 'C:\\Users\\YourName\\AppData\\Local\\Programs\\Git\\cmd\\git.exe'
-        REPO_URL = 'https://github.com/YOUR-USERNAME/php-devops-demo.git'
+        GIT_EXE = 'C:\\Program Files\\Git\\cmd\\git.exe'
+        REPO_URL = 'https://github.com/MoinZaheer/php-devops-demo'
         REPO_BRANCH = 'main'
         DEV_PATH = 'C:\\laragon\\www\\php-devops-demo\\dev'
         TEST_PATH = 'C:\\laragon\\www\\php-devops-demo\\test'
         STAGING_PATH = 'C:\\laragon\\www\\php-devops-demo\\staging'
         PROD_PATH = 'C:\\laragon\\www\\php-devops-demo\\prod'
-        PHP_EXE = 'C:\\laragon\\bin\\php\\php-8.3.30-Win32-vs16-x64\\php.exe'
+        PHP_EXE = 'C:\\laragon\\bin\\php\\php-8.3.36-Win32-vs16-x64\\php.exe'
     }
 
     stages {
